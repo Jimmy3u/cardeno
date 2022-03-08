@@ -59,5 +59,3 @@ São os tipos mais basicos de dados sendo eles:
   randomValue();                  // Error: Object is of type unknown
   randomValue.toUpperCase();      // Error: Object is of type unknown
   ```
-
-
