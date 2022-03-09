@@ -1,7 +1,5 @@
 # Tipos de dados
 
----
-
 ### Tipos Primitivos
 
 São os tipos mais basicos de dados sendo eles:
@@ -55,7 +53,7 @@ São os tipos mais basicos de dados sendo eles:
   randomValue = 'Mateo';
   
   console.log(random.Value);      // Ira printar 'Mateo'
-  console.log(randomValue.name);  // Error: Object is of type unknown
-  randomValue();                  // Error: Object is of type unknown
-  randomValue.toUpperCase();      // Error: Object is of type unknown
+  console.log(randomValue.name);  // Error: Objeto é do tipo unknown
+  randomValue();                  // Error: Object é do tipo unknown
+  randomValue.toUpperCase();      // Error: Object é do tipo unknown
   ```
