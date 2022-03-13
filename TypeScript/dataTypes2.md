@@ -61,20 +61,3 @@ let novoFuncionario: pessoaFuncionario {
 ```
 
 Sempre que criarmos um Intersection Type, usamos a sintade de `Tipo1 & Tipo 2` usando o 'E comercial' `&` 
-
-## Tuple
-
-**Tupla** é um tipo de dado parecido com um array, em que podemos ter tipos diferentes de dados em cada indice. Por exemplo criaremos uma variavel `cachorro` em que recebera 2 string e 1 numero, representando seu nome, raça e idade:
-
-```ts
-let cachorro: [string, string, number];     //Declaramos a variavel
-cachorro = ["Tobias", "Vira-lata", 12];     //Inicializamos a variavel
-```
-
-Para acessarmos um valor da variavel usamos a mesma sintaxe de um **array** por exemplo:
-
-```ts
-console.log(cachorro[0]);             //Retornara a string "Tobias"
-cachorro[0] = 1  //TS avisara que não é possivel atribuir um numero a uma string
-cachorro[1] = "Labrador"              //Ok, altera a string "Vira-lata" 
-```
